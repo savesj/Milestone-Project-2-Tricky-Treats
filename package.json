@@ -1,0 +1,23 @@
+{
+  "name": "milestone-project-2-tricky-treats",
+  "version": "1.0.0",
+  "description": "//General Requirements//\r This is a group project!\r Just to clarify, your instructional staff will help you in building groups in your cohort.\r This game cannot be an assignment we've already done in class.\r This application must run in a web browser.\r This application must be tracked in GitHub, with a minimum of 20 commits.\r Your empty project repository must be up on GitHub on day one of development and aim for multiple commits per day.\r This application must be deployed! You will need to use a service like Heroku, as this project will need to have a deployed back-end.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/only2pencils/Milestone-Project-2-Tricky-Treats.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/only2pencils/Milestone-Project-2-Tricky-Treats/issues"
+  },
+  "homepage": "https://github.com/only2pencils/Milestone-Project-2-Tricky-Treats#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
