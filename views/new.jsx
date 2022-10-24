@@ -39,3 +39,5 @@ function New ({recipes}) {
         </Default>
     )
 }
+
+module.exports = New
