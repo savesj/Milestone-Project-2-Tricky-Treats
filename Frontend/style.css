@@ -1,0 +1,9 @@
+body {
+    background-color: olivedrab
+}
+
+img {
+    width: 55%;
+    display: inline-block;
+    margin: auto;
+}
