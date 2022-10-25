@@ -1,17 +1,27 @@
 const React = require("react");
 
-function Def(html) {
-    function Def(html) {
-      return (
+function Default(html) {
+  return (
         <html>
           <head>
-            <title>Title</title>
+            <title>{html.title || 'Default'}</title>
+            <link rel="stylesheet" href=""/>
+            <link rel="stylesheet" href=""/>
+            <link rel="stylesheet" href="/style.css"/>
           </head>
-          <body>{html.children}</body>
+          <body>
+            <div className="wrapper">
+              <header>
+                <h1><a href="/treats">Tricky Treats</a></h1>
+              </header>
+              <div className="container">
+                {html.children}
+              </div>
+            </div>
+          </body>
         </html>
       );
     }
 
-}
 
-module.exports = Def
+module.exports = Default
